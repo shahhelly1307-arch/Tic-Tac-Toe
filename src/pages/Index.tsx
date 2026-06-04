@@ -1,8 +1,8 @@
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import LandingScreen from "../components/ui/LandingScreen";
-import DifficultyScreen from "@/components/DifficultyScreen";
-import GameScreen from "@/components/GameScreen";
+import DifficultyScreen from "../components/ui/DifficultyScreen";
+import GameScreen from "@/components/ui/GameScreen";
 import { loadStats } from "@/game/storage";
 import type { Difficulty } from "@/game/ai";
 
